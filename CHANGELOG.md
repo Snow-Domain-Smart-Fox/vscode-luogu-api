@@ -2,6 +2,30 @@
 
 
 <pre>
+***********************************************************************************
+*                                                                                 *
+*  7/3/2026 - 11:0 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
+*                                                                                 *
+***********************************************************************************
+</pre>
+<strong>Message: </strong><br>
+"Update package.json"<br>
+
+<strong>Affected files: </strong><br>
+"package.json"
+
+<strong>DIFF: </strong><br>
+```diff
+-    "@types/vscode": "^1.109.0",
++    "@types/vscode": "1.25.0",
+-  "icon": "https://cdn.luogu.com.cn/upload/usericon/3.png"
++  "icon": "https://cdn.luogu.com.cn/upload/usericon/3.png",
++  "publisher": "Amazing Luogu Dev Team"
+```
+<p><small>This might be a 🚀 or a 🧨 XD</small></p>
+<p>&nbsp;</p>
+
+<pre>
 ************************************************************************************
 *                                                                                  *
 *  7/3/2026 - 10:47 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
