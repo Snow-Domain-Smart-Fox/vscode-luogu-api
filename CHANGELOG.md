@@ -4,6 +4,61 @@
 <pre>
 ************************************************************************************
 *                                                                                  *
+*  7/3/2026 - 10:42 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
+*                                                                                  *
+************************************************************************************
+</pre>
+<strong>Message: </strong><br>
+"Add a dependency on the yltx.vscode-luogu plugin"<br>
+
+<strong>Affected files: </strong><br>
+"extension.js, package-lock.json, package.json"
+
+<strong>DIFF: </strong><br>
+```diff
+-
++const semver = require('semver');
++	const dependencyPluginId = 'yltx.vscode-luogu';
++	const versionConstraint = '<=4.12.2';
++	const dependencyExtension = vscode.extensions.getExtension(dependencyPluginId);
++	if (!dependencyExtension) {
++		vscode.window.showErrorMessage(
++		`Please install the yltx.vscode-luogu plugin with version${versionConstraint}`
++		);
++		return;
++	}
++	const installedVersion = dependencyExtension.packageJSON.version;
++	if (!semver.satisfies(installedVersion, versionConstraint)) {
++		vscode.window.showErrorMessage(
++		`Please install the yltx.vscode-luogu plugin with version${versionConstraint}`
++		);
++		return;
++	}
+-  "version": "0.0.1",
++  "version": "4.12.2",
+-      "version": "0.0.1",
++      "version": "4.12.2",
++      "dependencies": {
++        "semver": "^7.7.4"
++      },
+-        "vscode": "^1.109.0"
++        "vscode": "^1.25.0"
+-      "dev": true,
++  "dependencies": {
++    "semver": "^7.0.0"
++  },
+-  }
++  },
++  "extensionDependencies": [
++    "yltx.vscode-luogu"
++  ]
+```
+<p><small>This might be a 🚀 or a 🧨 XD</small></p>
+<p>&nbsp;</p>
+
+<pre>
+************************************************************************************
+*                                                                                  *
 *  7/3/2026 - 10:25 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
 *                                                                                  *
 ************************************************************************************
