@@ -4,6 +4,29 @@
 <pre>
 ***********************************************************************************
 *                                                                                 *
+*  7/3/2026 - 11:6 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
+*                                                                                 *
+***********************************************************************************
+</pre>
+<strong>Message: </strong><br>
+"Update README.md"<br>
+
+<strong>Affected files: </strong><br>
+"README.md"
+
+<strong>DIFF: </strong><br>
+```diff
+-This is a plugin that adds API support to the vscode-luogu plugin, and it needs to be used in conjunction with the Amazing Luogu Tampermonkey plugin.
++This is a plugin that adds API support to the vscode-luogu plugin, and it needs to be used in conjunction with the Amazing Luogu Tampermonkey plugin.
++
++Repository URL: <https://github.com/Snow-Domain-Smart-Fox/vscode-luogu-api>
+```
+<p><small>This might be a 🚀 or a 🧨 XD</small></p>
+<p>&nbsp;</p>
+
+<pre>
+***********************************************************************************
+*                                                                                 *
 *  7/3/2026 - 11:0 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
 *                                                                                 *
 ***********************************************************************************
