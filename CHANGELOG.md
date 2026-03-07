@@ -207,7 +207,7 @@
 -```diff
 --# vscode-luogu-api README
 --
---This is the README for your extension "vscode-luogu-api". After writing up a brief description, we recommend including the following sections.
+--[BLOCKED] After writing up a brief description, we recommend including the following sections.
 --
 --## Features
 --
@@ -345,7 +345,7 @@
 -+- Initial release
 -+# vscode-luogu-api README
 -+
--+This is the README for your extension "vscode-luogu-api". After writing up a brief description, we recommend including the following sections.
+-+[BLOCKED] your extension "vscode-luogu-api". After writing up a brief description, we recommend including the following sections.
 -+
 -+## Features
 -+
