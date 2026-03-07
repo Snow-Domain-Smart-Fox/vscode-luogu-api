@@ -71,7 +71,7 @@ function activate(context) {
 		}));
 	});
 	const port = getPortConfig();
-	server.listen(port, () => {
+	server.listen(port, '127.0.0.1', () => {
 		vscode.window.showInformationMessage(`vscode-luogu-api: Server is running on http://localhost:${port}`);
 	});
 	const configChangeListener = vscode.workspace.onDidChangeConfiguration((e) => {
@@ -79,7 +79,7 @@ function activate(context) {
 			const newPort = getPortConfig();
 			vscode.window.showInformationMessage(`vscode-luogu-api: The port number has been updated to ${newPort}`);
 			server.close();
-			server.listen(newPort, () => {
+			server.listen(newPort, '127.0.0.1', () => {
 				vscode.window.showInformationMessage(`vscode-luogu-api: Server is running on http://localhost:${newPort}`)
 			})
 		}
