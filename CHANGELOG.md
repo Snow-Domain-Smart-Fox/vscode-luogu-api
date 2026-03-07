@@ -2,6 +2,27 @@
 
 
 <pre>
+***********************************************************************************
+*                                                                                 *
+*  7/3/2026 - 12:0 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
+*                                                                                 *
+***********************************************************************************
+</pre>
+<strong>Message: </strong><br>
+"Update package.json"<br>
+
+<strong>Affected files: </strong><br>
+"extension/logo.webp, package.json"
+
+<strong>DIFF: </strong><br>
+```diff
+-  "icon": "https://cdn.luogu.com.cn/upload/usericon/3.png",
++  "icon": "/logo.webp",
+```
+<p><small>This might be a 🚀 or a 🧨 XD</small></p>
+<p>&nbsp;</p>
+
+<pre>
 ************************************************************************************
 *                                                                                  *
 *  7/3/2026 - 11:57 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
