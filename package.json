@@ -45,7 +45,7 @@
   "extensionDependencies": [
     "yltx.vscode-luogu"
   ],
-  "icon": "https://cdn.luogu.com.cn/upload/usericon/3.png",
+  "icon": "/logo.webp",
   "publisher": "AmazingLuoguDevTeam",
   "repository": {
     "url": "https://github.com/Snow-Domain-Smart-Fox/vscode-luogu-api.git",
