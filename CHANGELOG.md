@@ -4,6 +4,27 @@
 <pre>
 ************************************************************************************
 *                                                                                  *
+*  7/3/2026 - 11:47 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
+*                                                                                  *
+************************************************************************************
+</pre>
+<strong>Message: </strong><br>
+"Update package.json"<br>
+
+<strong>Affected files: </strong><br>
+"package.json"
+
+<strong>DIFF: </strong><br>
+```diff
+-  "publisher": "Amazing Luogu Dev Team",
++  "publisher": "AmazingLuoguDevTeam",
+```
+<p><small>This might be a 🚀 or a 🧨 XD</small></p>
+<p>&nbsp;</p>
+
+<pre>
+************************************************************************************
+*                                                                                  *
 *  7/3/2026 - 11:15 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
 *                                                                                  *
 ************************************************************************************
