@@ -4,6 +4,29 @@
 <pre>
 ************************************************************************************
 *                                                                                  *
+*  7/3/2026 - 10:47 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
+*                                                                                  *
+************************************************************************************
+</pre>
+<strong>Message: </strong><br>
+"Add icon"<br>
+
+<strong>Affected files: </strong><br>
+"README.md, package.json"
+
+<strong>DIFF: </strong><br>
+```diff
++
+-  ]
++  ],
++  "icon": "https://cdn.luogu.com.cn/upload/usericon/3.png"
+```
+<p><small>This might be a 🚀 or a 🧨 XD</small></p>
+<p>&nbsp;</p>
+
+<pre>
+************************************************************************************
+*                                                                                  *
 *  7/3/2026 - 10:42 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
 *                                                                                  *
 ************************************************************************************
