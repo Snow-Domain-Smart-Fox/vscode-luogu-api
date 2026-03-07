@@ -1,0 +1,42 @@
+{
+  "name": "vscode-luogu-api",
+  "displayName": "vscode-luogu-api",
+  "description": "Local API service for vscode-luogu: open Luogu pages via localhost in VSCode.",
+  "version": "4.12.2",
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": ["*"],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration":{
+      "title": "Vscode Luogu API",
+      "properties": {
+        "vscode-luogu-api.port":{
+          "type": "integer",
+          "default": 1145,
+          "description": "The port number on which Vscode Luogu API runs (1-65535)",
+          "minimum": 1,
+          "maximum": 65535,
+          "scope":"application"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.109.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.39.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
