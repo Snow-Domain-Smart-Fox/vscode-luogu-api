@@ -46,5 +46,9 @@
     "yltx.vscode-luogu"
   ],
   "icon": "https://cdn.luogu.com.cn/upload/usericon/3.png",
-  "publisher": "Amazing Luogu Dev Team"
+  "publisher": "Amazing Luogu Dev Team",
+  "repository": {
+    "url": "https://github.com/Snow-Domain-Smart-Fox/vscode-luogu-api.git",
+    "type": "git"
+  }
 }
