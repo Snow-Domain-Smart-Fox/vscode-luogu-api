@@ -2,6 +2,31 @@
 
 
 <pre>
+************************************************************************************
+*                                                                                  *
+*  7/3/2026 - 11:15 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
+*                                                                                  *
+************************************************************************************
+</pre>
+<strong>Message: </strong><br>
+"Update package.json"<br>
+
+<strong>Affected files: </strong><br>
+"package.json"
+
+<strong>DIFF: </strong><br>
+```diff
+-  "publisher": "Amazing Luogu Dev Team"
++  "publisher": "Amazing Luogu Dev Team",
++  "repository": {
++    "url": "https://github.com/Snow-Domain-Smart-Fox/vscode-luogu-api.git",
++    "type": "git"
++  }
+```
+<p><small>This might be a 🚀 or a 🧨 XD</small></p>
+<p>&nbsp;</p>
+
+<pre>
 ***********************************************************************************
 *                                                                                 *
 *  7/3/2026 - 11:6 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
