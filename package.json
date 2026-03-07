@@ -44,5 +44,6 @@
   },
   "extensionDependencies": [
     "yltx.vscode-luogu"
-  ]
+  ],
+  "icon": "https://cdn.luogu.com.cn/upload/usericon/3.png"
 }
