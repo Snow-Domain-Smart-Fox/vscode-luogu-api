@@ -1,10 +1,26 @@
 const vscode = require('vscode');
 const http = require('http');
-
+const semver = require('semver');
 /**
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
+	const dependencyPluginId = 'yltx.vscode-luogu';
+	const versionConstraint = '<=4.12.2';
+	const dependencyExtension = vscode.extensions.getExtension(dependencyPluginId);
+	if (!dependencyExtension) {
+		vscode.window.showErrorMessage(
+		`Please install the yltx.vscode-luogu plugin with version${versionConstraint}`
+		);
+		return;
+	}
+	const installedVersion = dependencyExtension.packageJSON.version;
+	if (!semver.satisfies(installedVersion, versionConstraint)) {
+		vscode.window.showErrorMessage(
+		`Please install the yltx.vscode-luogu plugin with version${versionConstraint}`
+		);
+		return;
+	}
 	const getPortConfig = () => {
 		const config = vscode.workspace.getConfiguration('vscode-luogu-api');
 		const port = config.get('port', 8080);

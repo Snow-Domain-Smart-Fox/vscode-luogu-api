@@ -31,6 +31,9 @@
     "pretest": "npm run lint",
     "test": "vscode-test"
   },
+  "dependencies": {
+    "semver": "^7.0.0"
+  },
   "devDependencies": {
     "@types/vscode": "^1.109.0",
     "@types/mocha": "^10.0.10",
@@ -38,5 +41,8 @@
     "eslint": "^9.39.3",
     "@vscode/test-cli": "^0.0.12",
     "@vscode/test-electron": "^2.5.2"
-  }
+  },
+  "extensionDependencies": [
+    "yltx.vscode-luogu"
+  ]
 }
