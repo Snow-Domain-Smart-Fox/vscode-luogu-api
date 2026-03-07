@@ -4,6 +4,28 @@
 <pre>
 ************************************************************************************
 *                                                                                  *
+*  7/3/2026 - 11:55 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
+*                                                                                  *
+************************************************************************************
+</pre>
+<strong>Message: </strong><br>
+"Test"<br>
+
+<strong>Affected files: </strong><br>
+"CHANGELOG.md"
+
+<strong>DIFF: </strong><br>
+```diff
++--[BLOCKED] After writing up a brief description, we recommend including the following sections.
+--+This is the README for your extension "vscode-luogu-api". After writing up a brief description, we recommend including the following sections.
++-+[BLOCKED] your extension "vscode-luogu-api". After writing up a brief description, we recommend including the following sections.
+```
+<p><small>This might be a 🚀 or a 🧨 XD</small></p>
+<p>&nbsp;</p>
+
+<pre>
+************************************************************************************
+*                                                                                  *
 *  7/3/2026 - 11:52 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
 *                                                                                  *
 ************************************************************************************
