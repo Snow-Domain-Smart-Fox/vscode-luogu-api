@@ -4,6 +4,27 @@
 <pre>
 ***********************************************************************************
 *                                                                                 *
+*  7/3/2026 - 12:1 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
+*                                                                                 *
+***********************************************************************************
+</pre>
+<strong>Message: </strong><br>
+"Add logo"<br>
+
+<strong>Affected files: </strong><br>
+"extension/logo.webp, package.json"
+
+<strong>DIFF: </strong><br>
+```diff
+-  "icon": "/logo.webp",
++  "icon": "/images/logo.webp",
+```
+<p><small>This might be a 🚀 or a 🧨 XD</small></p>
+<p>&nbsp;</p>
+
+<pre>
+***********************************************************************************
+*                                                                                 *
 *  7/3/2026 - 12:0 - [BLAME] => 155858750+YANGRENRUIYRR@users.noreply.github.com  *
 *                                                                                 *
 ***********************************************************************************
