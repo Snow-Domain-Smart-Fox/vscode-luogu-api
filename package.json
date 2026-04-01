@@ -2,7 +2,7 @@
   "name": "vscode-luogu-api",
   "displayName": "vscode-luogu-api",
   "description": "Local API service for vscode-luogu: open Luogu pages via localhost in VSCode.",
-  "version": "4.12.3",
+  "version": "4.12.4",
   "engines": {
     "vscode": "^1.25.0"
   },
