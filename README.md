@@ -2,11 +2,12 @@
 
 This is a plugin that adds API support to the vscode-luogu plugin, and it needs to be used in conjunction with the Amazing Luogu Tampermonkey plugin.
 
-## Version Comparison Table**
+## Version Comparison Table
 
 | VSCode Luogu API Version | VSCode Luogu Version |
 |:-:|:-:|
-| 4.12.5 (Recommended) | >=4.12.2 |
+| 4.12.6 (Recommended) | >=4.12.2 |
+| 4.12.5 | >=4.12.2 |
 | 4.12.4 | >4.12.2 |
 | 4.12.3 (Recommended) | 4.12.2 |
 | 4.12.2 | 4.12.2 |
