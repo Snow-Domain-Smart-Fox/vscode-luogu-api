@@ -6,7 +6,8 @@ This is a plugin that adds API support to the vscode-luogu plugin, and it needs 
 
 | VSCode Luogu API Version | VSCode Luogu Version |
 |:-:|:-:|
-| 4.12.4 (Recommended) | >4.12.2 |
+| 4.12.5 (Recommended) | >=4.12.2 |
+| 4.12.4 | >4.12.2 |
 | 4.12.3 (Recommended) | 4.12.2 |
 | 4.12.2 | 4.12.2 |
 

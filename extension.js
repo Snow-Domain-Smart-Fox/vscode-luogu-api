@@ -6,7 +6,7 @@ const semver = require('semver');
  */
 function activate(context) {
 	const dependencyPluginId = 'yltx.vscode-luogu';
-	const versionConstraint = '>4.12.2';
+	const versionConstraint = '>=4.12.2';
 	const dependencyExtension = vscode.extensions.getExtension(dependencyPluginId);
 	if (!dependencyExtension) {
 		vscode.window.showErrorMessage(
